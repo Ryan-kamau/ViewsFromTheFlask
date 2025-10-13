@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration & Login</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>🏠 Mini Club</h1>
+
+  <!-- Registration Form -->
+  <h2>Register</h2>
+  <form method="POST" action="/register">
+    <input name="username" placeholder="Username" required>
+    <input name="password" type="password" placeholder="Password" required>
+    <button type="submit">Sign Up</button>
+  </form>
+
+  <!-- Login Form -->
+  <h2>Login</h2>
+  <form method="POST" action="/login">
+    <input name="username" placeholder="Username" required>
+    <input name="password" type="password" placeholder="Password" required>
+    <button type="submit">Login</button>
+  </form>
+</body>
+</html>
